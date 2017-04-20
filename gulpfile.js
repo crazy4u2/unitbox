@@ -11,8 +11,13 @@ var include = require("gulp-include");
 var compass = require('gulp-compass');
 var plumber = require('gulp-plumber');
 
-// 작업경로
+// 작업경로, 결과물 경로
 var devSrc = 'src';
 var distSrc = 'dist';
 
+var devPaths = {
+
+};
+
 // 동작하는 task들
+
